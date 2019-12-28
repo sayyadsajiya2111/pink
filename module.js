@@ -1,4 +1,11 @@
-exports.addition=function(a,b)
+exports.factorial=function(n)
 {
-	return parseInt(a)+parseInt(b);
+	fact=1;
+	for(i=1;i<=n;i++)
+	{
+		console.log("in factorial");
+		
+		fact=fact*i;
+	}
+	return fact;
 }
